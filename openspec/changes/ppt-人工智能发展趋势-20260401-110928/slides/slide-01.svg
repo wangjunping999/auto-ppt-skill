@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- 背景 -->
+  <rect width="1280" height="720" fill="#0f172a"/>
+  
+  <!-- 装饰性背景元素 -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:0.1"/>
+    </linearGradient>
+    <linearGradient id="gradient2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0.05"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- 背景装饰形状 -->
+  <circle cx="200" cy="150" r="300" fill="url(#gradient1)" opacity="0.5"/>
+  <circle cx="1100" cy="600" r="250" fill="url(#gradient2)" opacity="0.5"/>
+  
+  <!-- 网格线装饰 -->
+  <g opacity="0.1" stroke="#22d3ee" stroke-width="1">
+    <line x1="0" y1="180" x2="1280" y2="180"/>
+    <line x1="0" y1="360" x2="1280" y2="360"/>
+    <line x1="0" y1="540" x2="1280" y2="540"/>
+    <line x1="320" y1="0" x2="320" y2="720"/>
+    <line x1="640" y1="0" x2="640" y2="720"/>
+    <line x1="960" y1="0" x2="960" y2="720"/>
+  </g>
+  
+  <!-- 主标题区域 - Bento Grid 大卡片 -->
+  <rect x="80" y="120" width="700" height="360" rx="16" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+  
+  <!-- AI 图标 -->
+  <g transform="translate(120, 160)">
+    <rect x="0" y="0" width="60" height="60" rx="12" fill="#22d3ee" opacity="0.2"/>
+    <text x="30" y="42" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" fill="#22d3ee" text-anchor="middle" font-weight="bold">AI</text>
+  </g>
+  
+  <!-- 主标题 -->
+  <text x="120" y="280" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="56" fill="#f1f5f9" font-weight="bold">人工智能发展趋势</text>
+  
+  <!-- 副标题 -->
+  <text x="120" y="340" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" fill="#818cf8">2025-2026 全景洞察与行动指南</text>
+  
+  <!-- 装饰线 -->
+  <rect x="120" y="380" width="120" height="4" rx="2" fill="#22d3ee"/>
+  
+  <!-- 右侧信息卡片 - Bento Grid 小卡片 1 -->
+  <rect x="820" y="120" width="380" height="170" rx="16" fill="#1e293b" stroke="#22d3ee" stroke-width="1" opacity="0.8"/>
+  <text x="850" y="170" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#22d3ee" font-weight="600">全球市场</text>
+  <text x="850" y="210" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="36" fill="#f1f5f9" font-weight="bold">$5000亿</text>
+  <text x="850" y="240" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#818cf8">2025年预计规模</text>
+  <text x="850" y="270" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#22d3ee">→ 2030年 $1.5万亿</text>
+  
+  <!-- 右侧信息卡片 - Bento Grid 小卡片 2 -->
+  <rect x="820" y="310" width="380" height="170" rx="16" fill="#1e293b" stroke="#6366f1" stroke-width="1" opacity="0.8"/>
+  <text x="850" y="360" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#6366f1" font-weight="600">中国市场</text>
+  <text x="850" y="400" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="36" fill="#f1f5f9" font-weight="bold">6000亿</text>
+  <text x="850" y="430" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#818cf8">核心产业规模（元）</text>
+  <text x="850" y="460" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#6366f1">带动产业 2万亿+</text>
+  
+  <!-- 底部特色标签 - Bento Grid 横向卡片 -->
+  <rect x="80" y="520" width="280" height="80" rx="12" fill="#1e293b" stroke="#22d3ee" stroke-width="1"/>
+  <text x="100" y="555" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#22d3ee" font-weight="600">大语言模型</text>
+  <text x="100" y="580" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">GPT-4 · Claude · Gemini</text>
+  
+  <rect x="380" y="520" width="280" height="80" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="1"/>
+  <text x="400" y="555" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#6366f1" font-weight="600">AI Agent</text>
+  <text x="400" y="580" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">从对话到行动</text>
+  
+  <rect x="680" y="520" width="280" height="80" rx="12" fill="#1e293b" stroke="#a78bfa" stroke-width="1"/>
+  <text x="700" y="555" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#a78bfa" font-weight="600">多模态AI</text>
+  <text x="700" y="580" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">文本·图像·音频·视频</text>
+  
+  <rect x="980" y="520" width="220" height="80" rx="12" fill="#1e293b" stroke="#22d3ee" stroke-width="1"/>
+  <text x="1000" y="555" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#22d3ee" font-weight="600">企业应用</text>
+  <text x="1000" y="580" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">60%+ 渗透率</text>
+  
+  <!-- 角落装饰 -->
+  <circle cx="1240" cy="40" r="6" fill="#22d3ee" opacity="0.6"/>
+  <circle cx="1200" cy="40" r="4" fill="#6366f1" opacity="0.6"/>
+  <circle cx="1160" cy="40" r="3" fill="#818cf8" opacity="0.6"/>
+  
+  <!-- 底部日期 -->
+  <text x="1200" y="680" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8" text-anchor="end">2025-2026</text>
+</svg>

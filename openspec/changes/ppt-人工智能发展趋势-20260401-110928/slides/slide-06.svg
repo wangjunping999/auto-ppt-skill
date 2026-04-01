@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#0f172a"/>
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1280" height="720" fill="url(#g1)" opacity="0.3"/>
+  
+  <text x="80" y="70" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#a78bfa" font-weight="600">03 应用落地</text>
+  <text x="80" y="110" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="38" fill="#f1f5f9" font-weight="bold">AI渗透千行百业</text>
+  <rect x="80" y="125" width="60" height="4" rx="2" fill="#a78bfa"/>
+  
+  <!-- 金融行业 -->
+  <rect x="80" y="160" width="280" height="250" rx="16" fill="#1e293b" stroke="#22d3ee" stroke-width="2"/>
+  <rect x="100" y="180" width="50" height="50" rx="10" fill="#22d3ee" opacity="0.2"/>
+  <text x="125" y="215" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#22d3ee" text-anchor="middle">💰</text>
+  <text x="100" y="260" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#f1f5f9" font-weight="bold">金融行业</text>
+  
+  <text x="100" y="300" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 智能投顾管理资产超万亿</text>
+  <text x="100" y="325" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 风控效率提升10倍</text>
+  <text x="100" y="350" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 智能客服替代率超70%</text>
+  <text x="100" y="385" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#22d3ee" font-weight="600">降本增效显著</text>
+  
+  <!-- 医疗健康 -->
+  <rect x="390" y="160" width="280" height="250" rx="16" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+  <rect x="410" y="180" width="50" height="50" rx="10" fill="#6366f1" opacity="0.2"/>
+  <text x="435" y="215" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#6366f1" text-anchor="middle">🏥</text>
+  <text x="410" y="260" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#f1f5f9" font-weight="bold">医疗健康</text>
+  
+  <text x="410" y="300" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 影像诊断准确率超95%</text>
+  <text x="410" y="325" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 新药研发周期缩短50%</text>
+  <text x="410" y="350" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 个性化治疗方案推荐</text>
+  <text x="410" y="385" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#6366f1" font-weight="600">精准医疗加速</text>
+  
+  <!-- 智能制造 -->
+  <rect x="700" y="160" width="280" height="250" rx="16" fill="#1e293b" stroke="#a78bfa" stroke-width="2"/>
+  <rect x="720" y="180" width="50" height="50" rx="10" fill="#a78bfa" opacity="0.2"/>
+  <text x="745" y="215" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#a78bfa" text-anchor="middle">🏭</text>
+  <text x="720" y="260" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#f1f5f9" font-weight="bold">智能制造</text>
+  
+  <text x="720" y="300" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 预测性维护降损30%</text>
+  <text x="720" y="325" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 质检效率提升20倍</text>
+  <text x="720" y="350" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 供应链智能优化</text>
+  <text x="720" y="385" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#a78bfa" font-weight="600">工业4.0核心</text>
+  
+  <!-- 教育培训 -->
+  <rect x="1010" y="160" width="190" height="250" rx="16" fill="#1e293b" stroke="#22d3ee" stroke-width="2"/>
+  <rect x="1030" y="180" width="50" height="50" rx="10" fill="#22d3ee" opacity="0.2"/>
+  <text x="1055" y="215" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#22d3ee" text-anchor="middle">📚</text>
+  <text x="1030" y="260" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#f1f5f9" font-weight="bold">教育培训</text>
+  
+  <text x="1030" y="300" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">• 个性化学习路径</text>
+  <text x="1030" y="325" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">• AI辅导覆盖1亿+学生</text>
+  <text x="1030" y="350" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">• 智能作业批改</text>
+  <text x="1030" y="385" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#22d3ee" font-weight="600">教育公平推进</text>
+  
+  <!-- 底部横向数据 -->
+  <rect x="80" y="440" width="280" height="110" rx="12" fill="#1e293b" stroke="#22d3ee" stroke-width="1"/>
+  <text x="100" y="475" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">零售电商</text>
+  <text x="100" y="510" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="26" fill="#f1f5f9" font-weight="bold">智能推荐</text>
+  <text x="100" y="535" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#22d3ee">转化率提升30%+</text>
+  
+  <rect x="390" y="440" width="280" height="110" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="1"/>
+  <text x="410" y="475" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">内容创作</text>
+  <text x="410" y="510" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="26" fill="#f1f5f9" font-weight="bold">AIGC</text>
+  <text x="410" y="535" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#6366f1">内容生产效率10倍</text>
+  
+  <rect x="700" y="440" width="280" height="110" rx="12" fill="#1e293b" stroke="#a78bfa" stroke-width="1"/>
+  <text x="720" y="475" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">法律服务</text>
+  <text x="720" y="510" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="26" fill="#f1f5f9" font-weight="bold">智能法务</text>
+  <text x="720" y="535" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#a78bfa">合同审查效率100倍</text>
+  
+  <rect x="1010" y="440" width="190" height="110" rx="12" fill="#1e293b" stroke="#22d3ee" stroke-width="1"/>
+  <text x="1030" y="475" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">自动驾驶</text>
+  <text x="1030" y="510" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#f1f5f9" font-weight="bold">L3+落地</text>
+  <text x="1030" y="535" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#22d3ee">商业化加速</text>
+  
+  <!-- 底部总结 -->
+  <rect x="80" y="580" width="1120" height="100" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="1" opacity="0.6"/>
+  <text x="100" y="615" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9" font-weight="bold">核心洞察</text>
+  <text x="100" y="645" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#818cf8">AI正从"锦上添花"变为"雪中送炭"，成为各行业数字化转型的核心驱动力。高价值场景优先落地，ROI明确的应用快速普及。</text>
+  <text x="100" y="670" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#22d3ee">→ 未来3年，AI将渗透90%以上的行业场景</text>
+  
+  <text x="1200" y="680" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8" text-anchor="end">06 / 13</text>
+</svg>

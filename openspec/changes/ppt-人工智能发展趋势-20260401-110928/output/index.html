@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人工智能发展趋势 2025-2026</title>
+    <style>
+        * {{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }}
+        
+        body {{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #1a1a2e;
+            color: #fff;
+            min-height: 100vh;
+        }}
+        
+        .header {{
+            padding: 20px 40px;
+            background: rgba(0,0,0,0.3);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }}
+        
+        .logo {{
+            width: 50px;
+            height: 50px;
+            background: #FF6900;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+        }}
+        
+        .title {{
+            font-size: 24px;
+            font-weight: 600;
+        }}
+        
+        .controls {{
+            padding: 20px 40px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }}
+        
+        .btn {{
+            padding: 10px 20px;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            color: #fff;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }}
+        
+        .btn:hover {{
+            background: #FF6900;
+        }}
+        
+        .btn.active {{
+            background: #FF6900;
+        }}
+        
+        .gallery {{
+            padding: 20px 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 20px;
+        }}
+        
+        .slide-card {{
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }}
+        
+        .slide-card:hover {{
+            transform: translateY(-5px);
+        }}
+        
+        .slide-card img {{
+            width: 100%;
+            height: auto;
+            display: block;
+        }}
+        
+        .slide-label {{
+            padding: 10px 15px;
+            font-size: 14px;
+            color: rgba(255,255,255,0.7);
+        }}
+        
+        .present-mode {{
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            z-index: 1000;
+        }}
+        
+        .present-mode.active {{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }}
+        
+        .present-slide {{
+            max-width: 90vw;
+            max-height: 90vh;
+        }}
+        
+        .present-slide img {{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }}
+        
+        .nav-btn {{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255,255,255,0.1);
+            border: none;
+            color: #fff;
+            font-size: 30px;
+            padding: 20px;
+            cursor: pointer;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }}
+        
+        .present-mode:hover .nav-btn {{
+            opacity: 1;
+        }}
+        
+        .nav-btn:hover {{
+            background: rgba(255,255,255,0.2);
+        }}
+        
+        .nav-prev {{ left: 20px; }}
+        .nav-next {{ right: 20px; }}
+        
+        .close-btn {{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255,255,255,0.1);
+            border: none;
+            color: #fff;
+            font-size: 24px;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 8px;
+        }}
+        
+        .scroll-view {{
+            display: none;
+            padding: 40px;
+            max-width: 1280px;
+            margin: 0 auto;
+        }}
+        
+        .scroll-view.active {{
+            display: block;
+        }}
+        
+        .scroll-slide {{
+            margin-bottom: 40px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            overflow: hidden;
+        }}
+        
+        .scroll-slide img {{
+            width: 100%;
+            height: auto;
+            display: block;
+        }}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">人工</div>
+        <div class="title">人工智能发展趋势 2025-2026</div>
+    </div>
+    
+    <div class="controls">
+        <button class="btn active" onclick="showGallery()">📷 Gallery</button>
+        <button class="btn" onclick="showScroll()">📜 Scroll</button>
+        <button class="btn" onclick="startPresent()">▶️ Present</button>
+    </div>
+    
+    <div class="gallery" id="gallery">
+        
+        <div class="slide-card">
+            <img src="slides/slide-01.svg" alt="人工智能发展趋势">
+            <div class="slide-label">人工智能发展趋势</div>
+        </div>
+        
+        <div class="slide-card">
+            <img src="slides/slide-02.svg" alt="内容概览">
+            <div class="slide-label">内容概览</div>
+        </div>
+        
+        <div class="slide-card">
+            <img src="slides/slide-03.svg" alt="全球AI市场：万亿级赛道加速成型">
+            <div class="slide-label">全球AI市场：万亿级赛道加速成型</div>
+        </div>
+        
+        <div class="slide-card">
+            <img src="slides/slide-04.svg" alt="技术演进：从对话到行动的AI变革">
+            <div class="slide-label">技术演进：从对话到行动的AI变革</div>
+        </div>
+        
+        <div class="slide-card">
+            <img src="slides/slide-05.svg" alt="四大技术趋势深度解析">
+            <div class="slide-label">四大技术趋势深度解析</div>
+        </div>
+        
+        <div class="slide-card">
+            <img src="slides/slide-06.svg" alt="应用落地：AI渗透千行百业">
+            <div class="slide-label">应用落地：AI渗透千行百业</div>
+        </div>
+        
+        <div class="slide-card">
+            <img src="slides/slide-07.svg" alt="企业级AI应用：从试点到规模部署">
+            <div class="slide-label">企业级AI应用：从试点到规模部署</div>
+        </div>
+        
+        <div class="slide-card">
+            <img src="slides/slide-08.svg" alt="产业生态：全栈布局加速成型">
+            <div class="slide-label">产业生态：全栈布局加速成型</div>
+        </div>
+        
+        <div class="slide-card">
+            <img src="slides/slide-09.svg" alt="中国力量：本土AI发展优势凸显">
+            <div class="slide-label">中国力量：本土AI发展优势凸显</div>
+        </div>
+        
+        <div class="slide-card">
+            <img src="slides/slide-10.svg" alt="挑战与风险：理性看待AI发展">
+            <div class="slide-label">挑战与风险：理性看待AI发展</div>
+        </div>
+        
+        <div class="slide-card">
+            <img src="slides/slide-11.svg" alt="未来展望：3-5年趋势预测">
+            <div class="slide-label">未来展望：3-5年趋势预测</div>
+        </div>
+        
+        <div class="slide-card">
+            <img src="slides/slide-12.svg" alt="行动建议：企业如何应对AI变革">
+            <div class="slide-label">行动建议：企业如何应对AI变革</div>
+        </div>
+        
+        <div class="slide-card">
+            <img src="slides/slide-13.svg" alt="把握AI浪潮，共创智能未来">
+            <div class="slide-label">把握AI浪潮，共创智能未来</div>
+        </div>
+        
+    </div>
+    
+    <div class="scroll-view" id="scrollView">
+        
+        <div class="scroll-slide">
+            <img src="slides/slide-01.svg" alt="人工智能发展趋势">
+        </div>
+        
+        <div class="scroll-slide">
+            <img src="slides/slide-02.svg" alt="内容概览">
+        </div>
+        
+        <div class="scroll-slide">
+            <img src="slides/slide-03.svg" alt="全球AI市场：万亿级赛道加速成型">
+        </div>
+        
+        <div class="scroll-slide">
+            <img src="slides/slide-04.svg" alt="技术演进：从对话到行动的AI变革">
+        </div>
+        
+        <div class="scroll-slide">
+            <img src="slides/slide-05.svg" alt="四大技术趋势深度解析">
+        </div>
+        
+        <div class="scroll-slide">
+            <img src="slides/slide-06.svg" alt="应用落地：AI渗透千行百业">
+        </div>
+        
+        <div class="scroll-slide">
+            <img src="slides/slide-07.svg" alt="企业级AI应用：从试点到规模部署">
+        </div>
+        
+        <div class="scroll-slide">
+            <img src="slides/slide-08.svg" alt="产业生态：全栈布局加速成型">
+        </div>
+        
+        <div class="scroll-slide">
+            <img src="slides/slide-09.svg" alt="中国力量：本土AI发展优势凸显">
+        </div>
+        
+        <div class="scroll-slide">
+            <img src="slides/slide-10.svg" alt="挑战与风险：理性看待AI发展">
+        </div>
+        
+        <div class="scroll-slide">
+            <img src="slides/slide-11.svg" alt="未来展望：3-5年趋势预测">
+        </div>
+        
+        <div class="scroll-slide">
+            <img src="slides/slide-12.svg" alt="行动建议：企业如何应对AI变革">
+        </div>
+        
+        <div class="scroll-slide">
+            <img src="slides/slide-13.svg" alt="把握AI浪潮，共创智能未来">
+        </div>
+        
+    </div>
+    
+    <div class="present-mode" id="presentMode">
+        <button class="close-btn" onclick="stopPresent()">✕</button>
+        <button class="nav-btn nav-prev" onclick="prevSlide()">‹</button>
+        <div class="present-slide" id="presentSlide"></div>
+        <button class="nav-btn nav-next" onclick="nextSlide()">›</button>
+    </div>
+    
+    <script>
+        const slides = [{"file": "slide-01.svg", "label": "人工智能发展趋势"}, {"file": "slide-02.svg", "label": "内容概览"}, {"file": "slide-03.svg", "label": "全球AI市场：万亿级赛道加速成型"}, {"file": "slide-04.svg", "label": "技术演进：从对话到行动的AI变革"}, {"file": "slide-05.svg", "label": "四大技术趋势深度解析"}, {"file": "slide-06.svg", "label": "应用落地：AI渗透千行百业"}, {"file": "slide-07.svg", "label": "企业级AI应用：从试点到规模部署"}, {"file": "slide-08.svg", "label": "产业生态：全栈布局加速成型"}, {"file": "slide-09.svg", "label": "中国力量：本土AI发展优势凸显"}, {"file": "slide-10.svg", "label": "挑战与风险：理性看待AI发展"}, {"file": "slide-11.svg", "label": "未来展望：3-5年趋势预测"}, {"file": "slide-12.svg", "label": "行动建议：企业如何应对AI变革"}, {"file": "slide-13.svg", "label": "把握AI浪潮，共创智能未来"}];
+        let currentSlide = 0;
+        
+        function showGallery() {{
+            document.getElementById('gallery').style.display = 'grid';
+            document.getElementById('scrollView').classList.remove('active');
+            document.querySelectorAll('.controls .btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+        }}
+        
+        function showScroll() {{
+            document.getElementById('gallery').style.display = 'none';
+            document.getElementById('scrollView').classList.add('active');
+            document.querySelectorAll('.controls .btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+        }}
+        
+        function startPresent() {{
+            currentSlide = 0;
+            updatePresentSlide();
+            document.getElementById('presentMode').classList.add('active');
+        }}
+        
+        function stopPresent() {{
+            document.getElementById('presentMode').classList.remove('active');
+        }}
+        
+        function updatePresentSlide() {{
+            const slide = slides[currentSlide];
+            document.getElementById('presentSlide').innerHTML = 
+                `<img src="${{slide.file}}" alt="${{slide.label}}">`;
+        }}
+        
+        function nextSlide() {{
+            currentSlide = (currentSlide + 1) % slides.length;
+            updatePresentSlide();
+        }}
+        
+        function prevSlide() {{
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            updatePresentSlide();
+        }}
+        
+        document.addEventListener('keydown', (e) => {{
+            if (!document.getElementById('presentMode').classList.contains('active')) return;
+            if (e.key === 'ArrowRight' || e.key === ' ') nextSlide();
+            if (e.key === 'ArrowLeft') prevSlide();
+            if (e.key === 'Escape') stopPresent();
+        }});
+    </script>
+</body>
+</html>

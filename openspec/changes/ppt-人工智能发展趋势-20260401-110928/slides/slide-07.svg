@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#0f172a"/>
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1280" height="720" fill="url(#g1)" opacity="0.3"/>
+  
+  <text x="80" y="70" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#a78bfa" font-weight="600">03 应用落地</text>
+  <text x="80" y="110" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="38" fill="#f1f5f9" font-weight="bold">企业级AI应用：从试点到规模部署</text>
+  <rect x="80" y="125" width="60" height="4" rx="2" fill="#a78bfa"/>
+  
+  <!-- 左侧大卡片 - 渗透率 -->
+  <rect x="80" y="160" width="400" height="300" rx="16" fill="#1e293b" stroke="#22d3ee" stroke-width="2"/>
+  <text x="110" y="200" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#22d3ee" font-weight="600">企业AI应用渗透率</text>
+  
+  <text x="110" y="280" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="72" fill="#f1f5f9" font-weight="bold">60%+</text>
+  <text x="110" y="320" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#818cf8">企业已试点或部署AI应用</text>
+  
+  <rect x="110" y="350" width="340" height="2" fill="#22d3ee" opacity="0.3"/>
+  
+  <text x="110" y="390" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 较2023年翻倍增长</text>
+  <text x="110" y="420" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 大型企业渗透率超80%</text>
+  <text x="110" y="450" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 中小企业快速跟进</text>
+  
+  <!-- 中间卡片 - 用户规模 -->
+  <rect x="510" y="160" width="350" height="300" rx="16" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+  <text x="540" y="200" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#6366f1" font-weight="600">AI助手用户规模</text>
+  
+  <text x="540" y="280" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="72" fill="#f1f5f9" font-weight="bold">10亿+</text>
+  <text x="540" y="320" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#818cf8">AI助手日活用户</text>
+  
+  <rect x="540" y="350" width="290" height="2" fill="#6366f1" opacity="0.3"/>
+  
+  <text x="540" y="390" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 成为新一代交互入口</text>
+  <text x="540" y="420" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 替代传统搜索和客服</text>
+  <text x="540" y="450" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#6366f1">→ 下一个超级流量入口</text>
+  
+  <!-- 右侧卡片 - 技术栈 -->
+  <rect x="890" y="160" width="310" height="300" rx="16" fill="#1e293b" stroke="#a78bfa" stroke-width="2"/>
+  <text x="920" y="200" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#a78bfa" font-weight="600">企业AI技术栈</text>
+  
+  <rect x="920" y="230" width="250" height="50" rx="8" fill="#22d3ee" opacity="0.2"/>
+  <text x="935" y="262" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#22d3ee" font-weight="600">RAG 检索增强</text>
+  
+  <rect x="920" y="290" width="250" height="50" rx="8" fill="#6366f1" opacity="0.2"/>
+  <text x="935" y="322" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#6366f1" font-weight="600">Fine-tuning 微调</text>
+  
+  <rect x="920" y="350" width="250" height="50" rx="8" fill="#a78bfa" opacity="0.2"/>
+  <text x="935" y="382" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#a78bfa" font-weight="600">Prompt Engineering</text>
+  
+  <rect x="920" y="410" width="250" height="35" rx="8" fill="#22d3ee" opacity="0.2"/>
+  <text x="935" y="433" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#22d3ee">MaaS 模型即服务</text>
+  
+  <!-- 底部应用阶段 -->
+  <rect x="80" y="490" width="280" height="100" rx="12" fill="#1e293b" stroke="#22d3ee" stroke-width="1"/>
+  <text x="100" y="520" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">阶段一</text>
+  <text x="100" y="550" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#f1f5f9" font-weight="bold">试点探索</text>
+  <text x="100" y="575" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#22d3ee">POC验证、场景探索</text>
+  
+  <rect x="390" y="490" width="280" height="100" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="1"/>
+  <text x="410" y="520" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">阶段二</text>
+  <text x="410" y="550" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#f1f5f9" font-weight="bold">部门推广</text>
+  <text x="410" y="575" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#6366f1">单点突破、工具集成</text>
+  
+  <rect x="700" y="490" width="280" height="100" rx="12" fill="#1e293b" stroke="#a78bfa" stroke-width="1"/>
+  <text x="720" y="520" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">阶段三</text>
+  <text x="720" y="550" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#f1f5f9" font-weight="bold">全面部署</text>
+  <text x="720" y="575" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#a78bfa">流程重构、组织变革</text>
+  
+  <rect x="1010" y="490" width="190" height="100" rx="12" fill="#1e293b" stroke="#22d3ee" stroke-width="1"/>
+  <text x="1030" y="520" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">阶段四</text>
+  <text x="1030" y="550" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#f1f5f9" font-weight="bold">AI原生</text>
+  <text x="1030" y="575" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#22d3ee">业务重构、创新引领</text>
+  
+  <!-- 底部总结 -->
+  <rect x="80" y="610" width="1120" height="70" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="1" opacity="0.6"/>
+  <text x="100" y="650" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">企业AI应用正从"试点探索"快速迈向"全面部署"，RAG、微调、提示工程成为标配技术栈，MaaS模式大幅降低应用门槛。</text>
+  
+  <text x="1200" y="680" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8" text-anchor="end">07 / 13</text>
+</svg>

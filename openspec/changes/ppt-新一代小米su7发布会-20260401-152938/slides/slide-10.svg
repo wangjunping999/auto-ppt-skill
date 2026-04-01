@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#0f172a"/>
+  <defs><linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.2"/><stop offset="100%" style="stop-color:#22d3ee;stop-opacity:0.1"/></linearGradient></defs>
+  <rect x="0" y="0" width="1280" height="720" fill="url(#g1)" opacity="0.3"/>
+  <text x="80" y="70" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#6366f1" font-weight="600">用户口碑</text>
+  <text x="80" y="110" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="38" fill="#f1f5f9" font-weight="bold">真实车主评价</text>
+  <rect x="80" y="125" width="60" height="4" rx="2" fill="#6366f1"/>
+  <rect x="80" y="160" width="400" height="200" rx="16" fill="#1e293b" stroke="#FF6900" stroke-width="2"/>
+  <text x="110" y="200" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="48" fill="#f1f5f9" font-weight="bold">8万+</text>
+  <text x="110" y="240" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#818cf8">24小时订单突破</text>
+  <text x="110" y="290" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">市场热度空前</text>
+  <text x="110" y="330" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#22d3ee">→ 现象级爆款</text>
+  <rect x="510" y="160" width="350" height="200" rx="16" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+  <text x="540" y="210" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="56" fill="#f1f5f9" font-weight="bold">72分</text>
+  <text x="540" y="260" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#818cf8">NPS净推荐值</text>
+  <text x="540" y="300" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">超越行业平均65分</text>
+  <text x="540" y="340" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#6366f1">用户满意度领先</text>
+  <rect x="890" y="160" width="310" height="200" rx="16" fill="#1e293b" stroke="#22d3ee" stroke-width="2"/>
+  <text x="920" y="210" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="56" fill="#f1f5f9" font-weight="bold">65%</text>
+  <text x="920" y="260" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#818cf8">小米生态用户</text>
+  <text x="920" y="300" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">生态粘性强劲</text>
+  <text x="920" y="340" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#22d3ee">品牌忠诚度高</text>
+  <rect x="80" y="390" width="360" height="130" rx="12" fill="#1e293b" stroke="#22d3ee" stroke-width="1"/>
+  <text x="100" y="425" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#22d3ee" font-weight="600">好评TOP3</text>
+  <text x="100" y="455" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">1. 智能座舱体验惊艳</text>
+  <text x="100" y="480" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">2. 加速性能超预期</text>
+  <text x="100" y="505" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">3. 生态互联无缝衔接</text>
+  <rect x="470" y="390" width="360" height="130" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="1"/>
+  <text x="490" y="425" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#6366f1" font-weight="600">典型评价</text>
+  <text x="490" y="460" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">"2.78秒加速太上头了！"</text>
+  <text x="490" y="485" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">"澎湃OS比CarPlay好用多了"</text>
+  <text x="490" y="510" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">"家里小米设备都能控制"</text>
+  <rect x="860" y="390" width="340" height="130" rx="12" fill="#1e293b" stroke="#FF6900" stroke-width="1"/>
+  <text x="880" y="425" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#FF6900" font-weight="600">用户画像</text>
+  <text x="880" y="455" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">平均年龄32岁</text>
+  <text x="880" y="480" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">一线城市45%</text>
+  <text x="880" y="505" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">科技行业从业者居多</text>
+  <rect x="80" y="550" width="1120" height="100" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="1" opacity="0.6"/>
+  <text x="100" y="590" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#f1f5f9" font-weight="bold">口碑传播</text>
+  <text x="100" y="630" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#818cf8">车主自发分享、社交媒体热议、KOL积极推荐 —— 形成强大口碑效应</text>
+  <text x="1200" y="680" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8" text-anchor="end">10 / 12</text>
+</svg>

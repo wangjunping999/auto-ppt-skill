@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#0f172a"/>
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6900;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1280" height="720" fill="url(#g1)" opacity="0.5"/>
+  
+  <!-- 背景装饰 -->
+  <circle cx="200" cy="150" r="300" fill="#FF6900" opacity="0.1"/>
+  <circle cx="1100" cy="600" r="250" fill="#6366f1" opacity="0.1"/>
+  
+  <!-- 小米Logo -->
+  <rect x="100" y="140" width="80" height="80" rx="16" fill="#FF6900"/>
+  <text x="140" y="195" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="36" fill="#fff" text-anchor="middle" font-weight="bold">mi</text>
+  
+  <!-- 主标题 -->
+  <text x="100" y="300" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="64" fill="#f1f5f9" font-weight="bold">新一代小米SU7</text>
+  <text x="100" y="370" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="32" fill="#FF6900">人车家全生态 智能轿车新标杆</text>
+  
+  <!-- 装饰线 -->
+  <rect x="100" y="410" width="150" height="4" rx="2" fill="#FF6900"/>
+  
+  <!-- 右侧信息卡片 -->
+  <rect x="750" y="140" width="430" height="180" rx="16" fill="#1e293b" stroke="#FF6900" stroke-width="2"/>
+  <text x="780" y="180" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#FF6900" font-weight="600">核心参数</text>
+  <text x="780" y="230" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="42" fill="#f1f5f9" font-weight="bold">2.78s</text>
+  <text x="900" y="230" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#818cf8">0-100km/h</text>
+  <text x="780" y="280" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="42" fill="#f1f5f9" font-weight="bold">830km</text>
+  <text x="920" y="280" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#818cf8">CLTC续航</text>
+  
+  <rect x="750" y="340" width="430" height="180" rx="16" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+  <text x="780" y="380" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#6366f1" font-weight="600">价格</text>
+  <text x="780" y="440" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="48" fill="#f1f5f9" font-weight="bold">21.59万起</text>
+  <text x="780" y="480" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#22d3ee">三款车型可选</text>
+  
+  <!-- 底部特色标签 -->
+  <rect x="100" y="520" width="200" height="80" rx="12" fill="#1e293b" stroke="#FF6900" stroke-width="1"/>
+  <text x="120" y="555" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#FF6900">澎湃OS</text>
+  <text x="120" y="580" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">智能座舱</text>
+  
+  <rect x="320" y="520" width="200" height="80" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="1"/>
+  <text x="340" y="555" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#6366f1">城市NOA</text>
+  <text x="340" y="580" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">智能驾驶</text>
+  
+  <rect x="540" y="520" width="200" height="80" rx="12" fill="#1e293b" stroke="#22d3ee" stroke-width="1"/>
+  <text x="560" y="555" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#22d3ee">800V快充</text>
+  <text x="560" y="580" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">15分钟510km</text>
+  
+  <text x="1200" y="680" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8" text-anchor="end">01 / 12</text>
+</svg>

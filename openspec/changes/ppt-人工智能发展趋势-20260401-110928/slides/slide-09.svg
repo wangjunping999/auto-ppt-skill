@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#0f172a"/>
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1280" height="720" fill="url(#g1)" opacity="0.3"/>
+  
+  <text x="80" y="70" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f59e0b" font-weight="600">05 中国力量</text>
+  <text x="80" y="110" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="38" fill="#f1f5f9" font-weight="bold">中国力量：本土AI发展优势凸显</text>
+  <rect x="80" y="125" width="60" height="4" rx="2" fill="#f59e0b"/>
+  
+  <!-- 四大优势 -->
+  <rect x="80" y="160" width="550" height="250" rx="16" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="100" y="180" width="60" height="60" rx="12" fill="#f59e0b" opacity="0.2"/>
+  <text x="130" y="222" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" fill="#f59e0b" text-anchor="middle">🇨🇳</text>
+  <text x="180" y="215" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#f1f5f9" font-weight="bold">应用场景优势</text>
+  
+  <text x="100" y="280" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">• 庞大市场：14亿人口，多元化需求场景</text>
+  <text x="100" y="310" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">• 丰富场景：移动支付、电商、社交全球领先</text>
+  <text x="100" y="340" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">• 快速迭代：场景驱动技术快速验证和优化</text>
+  <text x="100" y="380" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#f59e0b" font-weight="600">→ 场景即优势，应用即创新</text>
+  
+  <rect x="650" y="160" width="550" height="250" rx="16" fill="#1e293b" stroke="#22d3ee" stroke-width="2"/>
+  <rect x="670" y="180" width="60" height="60" rx="12" fill="#22d3ee" opacity="0.2"/>
+  <text x="700" y="222" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" fill="#22d3ee" text-anchor="middle">📊</text>
+  <text x="750" y="215" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#f1f5f9" font-weight="bold">数据资源优势</text>
+  
+  <text x="670" y="280" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">• 海量数据：互联网用户规模全球第一</text>
+  <text x="670" y="310" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">• 数据多样性：多语言、多文化、多场景</text>
+  <text x="670" y="340" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">• 数据闭环：从应用到数据的快速反馈</text>
+  <text x="670" y="380" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#22d3ee" font-weight="600">→ 数据是AI发展的核心燃料</text>
+  
+  <rect x="80" y="430" width="550" height="250" rx="16" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+  <rect x="100" y="450" width="60" height="60" rx="12" fill="#6366f1" opacity="0.2"/>
+  <text x="130" y="492" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" fill="#6366f1" text-anchor="middle">⚡</text>
+  <text x="180" y="485" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#f1f5f9" font-weight="bold">工程化优势</text>
+  
+  <text x="100" y="550" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">• 快速落地：从研发到应用的超短周期</text>
+  <text x="100" y="580" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">• 成本控制：极致性价比的工程优化</text>
+  <text x="100" y="610" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">• 规模运营：超大规模系统的稳定运行</text>
+  <text x="100" y="650" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#6366f1" font-weight="600">→ 把AI从实验室搬到生产线</text>
+  
+  <rect x="650" y="430" width="550" height="250" rx="16" fill="#1e293b" stroke="#a78bfa" stroke-width="2"/>
+  <rect x="670" y="450" width="60" height="60" rx="12" fill="#a78bfa" opacity="0.2"/>
+  <text x="700" y="492" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" fill="#a78bfa" text-anchor="middle">🏛️</text>
+  <text x="750" y="485" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#f1f5f9" font-weight="bold">政策支持优势</text>
+  
+  <text x="670" y="550" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">• 国家战略：AI列为国家优先发展战略</text>
+  <text x="670" y="580" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">• "人工智能+"：深入推进产业融合</text>
+  <text x="670" y="610" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">• 地方配套：各地AI产业扶持政策密集出台</text>
+  <text x="670" y="650" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#a78bfa" font-weight="600">→ 政策红利持续释放</text>
+  
+  <text x="1200" y="680" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8" text-anchor="end">09 / 13</text>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#0f172a"/>
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1280" height="720" fill="url(#g1)" opacity="0.3"/>
+  
+  <text x="80" y="70" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#22d3ee" font-weight="600">04 产业生态</text>
+  <text x="80" y="110" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="38" fill="#f1f5f9" font-weight="bold">产业生态：全栈布局加速成型</text>
+  <rect x="80" y="125" width="60" height="4" rx="2" fill="#22d3ee"/>
+  
+  <!-- 算力层 -->
+  <rect x="80" y="160" width="280" height="280" rx="16" fill="#1e293b" stroke="#22d3ee" stroke-width="2"/>
+  <rect x="100" y="180" width="60" height="60" rx="12" fill="#22d3ee" opacity="0.2"/>
+  <text x="130" y="220" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#22d3ee" text-anchor="middle" font-weight="bold">💻</text>
+  <text x="100" y="270" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#f1f5f9" font-weight="bold">算力层</text>
+  
+  <text x="100" y="310" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• GPU/TPU/NPU芯片</text>
+  <text x="100" y="335" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 国产算力突破</text>
+  <text x="100" y="360" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 云边端协同</text>
+  <text x="100" y="385" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 智算中心建设</text>
+  <text x="100" y="420" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#22d3ee" font-weight="600">自主可控进程加速</text>
+  
+  <!-- 平台层 -->
+  <rect x="390" y="160" width="280" height="280" rx="16" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+  <rect x="410" y="180" width="60" height="60" rx="12" fill="#6366f1" opacity="0.2"/>
+  <text x="440" y="220" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#6366f1" text-anchor="middle" font-weight="bold">🔧</text>
+  <text x="410" y="270" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#f1f5f9" font-weight="bold">平台层</text>
+  
+  <text x="410" y="310" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• AI开发平台</text>
+  <text x="410" y="335" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 低代码/无代码</text>
+  <text x="410" y="360" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 模型训练框架</text>
+  <text x="410" y="385" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 数据标注工具</text>
+  <text x="410" y="420" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#6366f1" font-weight="600">开发门槛持续降低</text>
+  
+  <!-- 模型层 -->
+  <rect x="700" y="160" width="280" height="280" rx="16" fill="#1e293b" stroke="#a78bfa" stroke-width="2"/>
+  <rect x="720" y="180" width="60" height="60" rx="12" fill="#a78bfa" opacity="0.2"/>
+  <text x="750" y="220" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#a78bfa" text-anchor="middle" font-weight="bold">🧠</text>
+  <text x="720" y="270" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#f1f5f9" font-weight="bold">模型层</text>
+  
+  <text x="720" y="310" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 通用大模型</text>
+  <text x="720" y="335" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 垂直领域模型</text>
+  <text x="720" y="360" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 开源vs闭源</text>
+  <text x="720" y="385" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 多模态模型</text>
+  <text x="720" y="420" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#a78bfa" font-weight="600">百花齐放格局</text>
+  
+  <!-- 应用层 -->
+  <rect x="1010" y="160" width="190" height="280" rx="16" fill="#1e293b" stroke="#22d3ee" stroke-width="2"/>
+  <rect x="1030" y="180" width="50" height="50" rx="10" fill="#22d3ee" opacity="0.2"/>
+  <text x="1055" y="215" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#22d3ee" text-anchor="middle" font-weight="bold">📱</text>
+  <text x="1030" y="260" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#f1f5f9" font-weight="bold">应用层</text>
+  
+  <text x="1030" y="300" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">• AI原生应用</text>
+  <text x="1030" y="325" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">• 传统软件AI化</text>
+  <text x="1030" y="350" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">• 行业解决方案</text>
+  <text x="1030" y="375" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">• 消费级产品</text>
+  <text x="1030" y="410" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#22d3ee" font-weight="600">创新爆发期</text>
+  
+  <!-- 连接箭头 -->
+  <path d="M 360 300 L 390 300" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" marker-end="url(#arrowhead)"/>
+  <path d="M 670 300 L 700 300" stroke="#6366f1" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 980 300 L 1010 300" stroke="#a78bfa" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- 底部生态特点 -->
+  <rect x="80" y="470" width="260" height="100" rx="12" fill="#1e293b" stroke="#22d3ee" stroke-width="1"/>
+  <text x="100" y="505" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#22d3ee" font-weight="600">国产替代</text>
+  <text x="100" y="535" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">华为昇腾、寒武纪、</text>
+  <text x="100" y="555" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">海光等国产芯片崛起</text>
+  
+  <rect x="370" y="470" width="260" height="100" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="1"/>
+  <text x="390" y="505" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#6366f1" font-weight="600">开源生态</text>
+  <text x="390" y="535" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">Llama、Qwen、</text>
+  <text x="390" y="555" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">ChatGLM等开源繁荣</text>
+  
+  <rect x="660" y="470" width="260" height="100" rx="12" fill="#1e293b" stroke="#a78bfa" stroke-width="1"/>
+  <text x="680" y="505" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#a78bfa" font-weight="600">云厂商布局</text>
+  <text x="680" y="535" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">阿里云、腾讯云、</text>
+  <text x="680" y="555" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">华为云全面发力</text>
+  
+  <rect x="950" y="470" width="250" height="100" rx="12" fill="#1e293b" stroke="#22d3ee" stroke-width="1"/>
+  <text x="970" y="505" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#22d3ee" font-weight="600">创业公司</text>
+  <text x="970" y="535" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">垂直场景、工具链、</text>
+  <text x="970" y="555" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#f1f5f9">应用创新百花齐放</text>
+  
+  <!-- 底部总结 -->
+  <rect x="80" y="590" width="1120" height="80" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="1" opacity="0.6"/>
+  <text x="100" y="625" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9" font-weight="bold">全栈布局特点</text>
+  <text x="100" y="655" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#818cf8">从芯片到应用，国产替代与开源生态双轮驱动，云厂商与创业公司各展所长，完整产业生态加速成型。</text>
+  
+  <text x="1200" y="680" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8" text-anchor="end">08 / 13</text>
+</svg>

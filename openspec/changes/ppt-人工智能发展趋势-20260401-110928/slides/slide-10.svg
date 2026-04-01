@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#0f172a"/>
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1280" height="720" fill="url(#g1)" opacity="0.3"/>
+  
+  <text x="80" y="70" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#ef4444" font-weight="600">06 挑战与机遇</text>
+  <text x="80" y="110" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="38" fill="#f1f5f9" font-weight="bold">挑战与风险：理性看待AI发展</text>
+  <rect x="80" y="125" width="60" height="4" rx="2" fill="#ef4444"/>
+  
+  <!-- 技术挑战 -->
+  <rect x="80" y="160" width="360" height="280" rx="16" fill="#1e293b" stroke="#ef4444" stroke-width="2"/>
+  <rect x="100" y="180" width="50" height="50" rx="10" fill="#ef4444" opacity="0.2"/>
+  <text x="125" y="215" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#ef4444" text-anchor="middle">⚠️</text>
+  <text x="100" y="260" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#f1f5f9" font-weight="bold">技术挑战</text>
+  
+  <text x="100" y="300" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• AI幻觉：生成内容可靠性待提升</text>
+  <text x="100" y="330" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 推理边界：复杂逻辑仍有局限</text>
+  <text x="100" y="360" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 算力瓶颈：高端芯片供应受限</text>
+  <text x="100" y="390" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 能耗问题：大模型训练成本高昂</text>
+  <text x="100" y="420" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#ef4444">→ 技术突破仍需时间</text>
+  
+  <!-- 伦理风险 -->
+  <rect x="460" y="160" width="360" height="280" rx="16" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="480" y="180" width="50" height="50" rx="10" fill="#f59e0b" opacity="0.2"/>
+  <text x="505" y="215" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#f59e0b" text-anchor="middle">🔒</text>
+  <text x="480" y="260" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#f1f5f9" font-weight="bold">伦理风险</text>
+  
+  <text x="480" y="300" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 数据隐私：训练数据合规使用</text>
+  <text x="480" y="330" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 算法偏见：公平性问题待解决</text>
+  <text x="480" y="360" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 深度伪造：虚假信息传播风险</text>
+  <text x="480" y="390" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 知识产权：生成内容版权争议</text>
+  <text x="480" y="420" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f59e0b">→ 治理框架加速构建</text>
+  
+  <!-- 社会影响 -->
+  <rect x="840" y="160" width="360" height="280" rx="16" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+  <rect x="860" y="180" width="50" height="50" rx="10" fill="#6366f1" opacity="0.2"/>
+  <text x="885" y="215" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#6366f1" text-anchor="middle">👥</text>
+  <text x="860" y="260" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#f1f5f9" font-weight="bold">社会影响</text>
+  
+  <text x="860" y="300" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 就业冲击：部分岗位面临替代</text>
+  <text x="860" y="330" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 技能鸿沟：数字素养差距扩大</text>
+  <text x="860" y="360" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 人机协作：新型工作模式待探索</text>
+  <text x="860" y="390" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 社会分化：技术红利分配不均</text>
+  <text x="860" y="420" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#6366f1">→ 人机协作新范式</text>
+  
+  <!-- 监管合规 -->
+  <rect x="80" y="470" width="550" height="100" rx="12" fill="#1e293b" stroke="#22d3ee" stroke-width="1"/>
+  <text x="100" y="505" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#22d3ee" font-weight="600">监管合规</text>
+  <text x="100" y="535" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">全球AI治理框架加速构建：欧盟AI法案、中国生成式AI管理暂行办法、美国AI行政令</text>
+  <text x="100" y="555" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">合规成本上升，但为行业健康发展奠定基础</text>
+  
+  <!-- 应对策略 -->
+  <rect x="650" y="470" width="550" height="100" rx="12" fill="#1e293b" stroke="#22d3ee" stroke-width="1"/>
+  <text x="670" y="505" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#22d3ee" font-weight="600">应对策略</text>
+  <text x="670" y="535" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">技术层面：提升可解释性、鲁棒性；治理层面：建立伦理委员会、完善审核机制</text>
+  <text x="670" y="555" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#22d3ee">社会层面：加强AI教育、推进再培训计划</text>
+  
+  <!-- 底部总结 -->
+  <rect x="80" y="590" width="1120" height="80" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="1" opacity="0.6"/>
+  <text x="100" y="625" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9" font-weight="bold">理性看待</text>
+  <text x="100" y="655" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#818cf8">AI发展伴随挑战，但不应因噎废食。技术进步与治理完善并行，才能实现AI的可持续发展。</text>
+  
+  <text x="1200" y="680" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8" text-anchor="end">10 / 13</text>
+</svg>

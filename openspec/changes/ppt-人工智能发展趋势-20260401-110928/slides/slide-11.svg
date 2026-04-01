@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#0f172a"/>
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1280" height="720" fill="url(#g1)" opacity="0.3"/>
+  
+  <text x="80" y="70" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#22d3ee" font-weight="600">06 挑战与机遇</text>
+  <text x="80" y="110" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="38" fill="#f1f5f9" font-weight="bold">未来展望：3-5年趋势预测</text>
+  <rect x="80" y="125" width="60" height="4" rx="2" fill="#22d3ee"/>
+  
+  <!-- 时间轴 -->
+  <rect x="80" y="160" width="1120" height="400" rx="16" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+  
+  <!-- 2025-2026 -->
+  <rect x="110" y="190" width="320" height="340" rx="12" fill="#22d3ee" opacity="0.1"/>
+  <rect x="130" y="210" width="80" height="40" rx="8" fill="#22d3ee" opacity="0.3"/>
+  <text x="170" y="238" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#22d3ee" text-anchor="middle" font-weight="bold">2025-2026</text>
+  
+  <text x="140" y="280" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#f1f5f9" font-weight="bold">AI Agent普及</text>
+  <text x="140" y="310" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">企业级应用爆发</text>
+  
+  <text x="140" y="350" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• Agent成为标配</text>
+  <text x="140" y="375" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 多Agent协作成熟</text>
+  <text x="140" y="400" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 端侧AI普及</text>
+  <text x="140" y="425" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 垂直模型涌现</text>
+  <text x="140" y="455" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 企业全面数字化</text>
+  <text x="140" y="485" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 监管框架完善</text>
+  
+  <!-- 2027-2028 -->
+  <rect x="460" y="190" width="320" height="340" rx="12" fill="#6366f1" opacity="0.1"/>
+  <rect x="480" y="210" width="80" height="40" rx="8" fill="#6366f1" opacity="0.3"/>
+  <text x="520" y="238" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#6366f1" text-anchor="middle" font-weight="bold">2027-2028</text>
+  
+  <text x="490" y="280" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#f1f5f9" font-weight="bold">AGI雏形显现</text>
+  <text x="490" y="310" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">多模态成为标配</text>
+  
+  <text x="490" y="350" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 多模态原生模型</text>
+  <text x="490" y="375" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 世界模型突破</text>
+  <text x="490" y="400" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 具身智能起步</text>
+  <text x="490" y="425" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 科学发现AI</text>
+  <text x="490" y="455" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 创意产业变革</text>
+  <text x="490" y="485" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 个性化服务普及</text>
+  
+  <!-- 2029-2030 -->
+  <rect x="810" y="190" width="320" height="340" rx="12" fill="#a78bfa" opacity="0.1"/>
+  <rect x="830" y="210" width="80" height="40" rx="8" fill="#a78bfa" opacity="0.3"/>
+  <text x="870" y="238" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#a78bfa" text-anchor="middle" font-weight="bold">2029-2030</text>
+  
+  <text x="840" y="280" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#f1f5f9" font-weight="bold">物理世界融合</text>
+  <text x="840" y="310" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">机器人大规模应用</text>
+  
+  <text x="840" y="350" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 人形机器人商用</text>
+  <text x="840" y="375" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 自动驾驶普及</text>
+  <text x="840" y="400" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 智能制造升级</text>
+  <text x="840" y="425" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 智慧城市成熟</text>
+  <text x="840" y="455" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 脑机接口突破</text>
+  <text x="840" y="485" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9">• 虚实融合生活</text>
+  
+  <!-- 长期愿景 -->
+  <rect x="80" y="580" width="1120" height="100" rx="12" fill="#1e293b" stroke="#22d3ee" stroke-width="2"/>
+  <text x="100" y="615" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#22d3ee" font-weight="bold">长期愿景：人机协作新范式</text>
+  <text x="100" y="650" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">AI成为像电力、互联网一样的基础设施，人机协作成为默认工作模式，人类专注创造性、战略性工作，AI承担重复性、计算性任务。</text>
+  <text x="100" y="670" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#22d3ee">→ 技术服务于人，而非替代人</text>
+  
+  <text x="1200" y="680" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8" text-anchor="end">11 / 13</text>
+</svg>

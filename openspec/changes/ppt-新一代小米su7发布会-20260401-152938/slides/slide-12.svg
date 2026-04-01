@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#0f172a"/>
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#FF6900;stop-opacity:0.3"/><stop offset="100%" style="stop-color:#6366f1;stop-opacity:0.2"/></linearGradient>
+    <radialGradient id="g2" cx="50%" cy="50%" r="50%"><stop offset="0%" style="stop-color:#FF6900;stop-opacity:0.2"/><stop offset="100%" style="stop-color:#0f172a;stop-opacity:0"/></radialGradient>
+  </defs>
+  <rect x="0" y="0" width="1280" height="720" fill="url(#g1)" opacity="0.5"/>
+  <circle cx="640" cy="360" r="300" fill="url(#g2)"/>
+  <rect x="100" y="140" width="80" height="80" rx="16" fill="#FF6900"/>
+  <text x="140" y="195" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="36" fill="#fff" text-anchor="middle" font-weight="bold">mi</text>
+  <text x="640" y="280" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="52" fill="#f1f5f9" text-anchor="middle" font-weight="bold">人车家全生态</text>
+  <text x="640" y="350" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="52" fill="#FF6900" text-anchor="middle" font-weight="bold">未来已来</text>
+  <rect x="540" y="400" width="200" height="4" rx="2" fill="#FF6900"/>
+  <text x="640" y="480" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#f1f5f9" text-anchor="middle">新一代小米SU7</text>
+  <text x="640" y="520" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#818cf8" text-anchor="middle">智能轿车新标杆</text>
+  <text x="640" y="580" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#6366f1" text-anchor="middle">感谢每一位用户的信任与支持</text>
+  <text x="640" y="620" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#FF6900" text-anchor="middle" font-weight="bold">小米汽车，为梦想而生</text>
+  <text x="1200" y="680" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8" text-anchor="end">12 / 12</text>
+</svg>

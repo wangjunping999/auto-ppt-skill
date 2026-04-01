@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#0f172a"/>
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6900;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1280" height="720" fill="url(#g1)" opacity="0.3"/>
+  
+  <text x="80" y="70" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#FF6900" font-weight="600">品牌愿景</text>
+  <text x="80" y="110" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="38" fill="#f1f5f9" font-weight="bold">小米汽车：重新定义智能出行</text>
+  <rect x="80" y="125" width="60" height="4" rx="2" fill="#FF6900"/>
+  
+  <!-- 左侧大卡片 -->
+  <rect x="80" y="160" width="550" height="300" rx="16" fill="#1e293b" stroke="#FF6900" stroke-width="2"/>
+  <rect x="100" y="180" width="60" height="60" rx="12" fill="#FF6900" opacity="0.2"/>
+  <text x="130" y="222" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" fill="#FF6900" text-anchor="middle">🚗</text>
+  <text x="180" y="220" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#f1f5f9" font-weight="bold">小米汽车使命</text>
+  
+  <text x="100" y="280" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#f1f5f9">打造极致智能出行体验</text>
+  <text x="100" y="320" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#818cf8">用科技让出行更智能、更便捷、更愉悦</text>
+  
+  <rect x="100" y="360" width="510" height="2" fill="#FF6900" opacity="0.3"/>
+  
+  <text x="100" y="400" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">• 2024年交付13.5万台</text>
+  <text x="100" y="430" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">• 2025年目标30万台</text>
+  <text x="100" y="460" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#22d3ee">→ 新势力第一梯队</text>
+  
+  <!-- 右侧生态图 -->
+  <rect x="650" y="160" width="550" height="300" rx="16" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+  <text x="680" y="200" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#6366f1" font-weight="600">人车家全生态</text>
+  
+  <!-- 生态图示 -->
+  <circle cx="800" cy="320" r="50" fill="#FF6900" opacity="0.3"/>
+  <text x="800" y="328" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9" text-anchor="middle">手机</text>
+  
+  <circle cx="950" cy="320" r="50" fill="#6366f1" opacity="0.3"/>
+  <text x="950" y="328" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9" text-anchor="middle">汽车</text>
+  
+  <circle cx="1100" cy="320" r="50" fill="#22d3ee" opacity="0.3"/>
+  <text x="1100" y="328" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#f1f5f9" text-anchor="middle">家居</text>
+  
+  <line x1="850" y1="320" x2="900" y2="320" stroke="#f1f5f9" stroke-width="2"/>
+  <line x1="1000" y1="320" x2="1050" y2="320" stroke="#f1f5f9" stroke-width="2"/>
+  
+  <text x="680" y="420" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 手机×汽车×智能家居无缝互联</text>
+  <text x="680" y="450" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 统一账号、统一体验、统一生态</text>
+  <text x="680" y="480" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#22d3ee">→ 全球唯一全生态汽车</text>
+  
+  <!-- 底部数据 -->
+  <rect x="80" y="490" width="280" height="100" rx="12" fill="#1e293b" stroke="#FF6900" stroke-width="1"/>
+  <text x="100" y="525" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">2024年交付</text>
+  <text x="100" y="560" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="36" fill="#f1f5f9" font-weight="bold">13.5万</text>
+  <text x="100" y="585" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#FF6900">台</text>
+  
+  <rect x="390" y="490" width="280" height="100" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="1"/>
+  <text x="410" y="525" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">2025年目标</text>
+  <text x="410" y="560" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="36" fill="#f1f5f9" font-weight="bold">30万</text>
+  <text x="410" y="585" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#6366f1">台</text>
+  
+  <rect x="700" y="490" width="280" height="100" rx="12" fill="#1e293b" stroke="#22d3ee" stroke-width="1"/>
+  <text x="720" y="525" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">用户满意度</text>
+  <text x="720" y="560" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="36" fill="#f1f5f9" font-weight="bold">98%</text>
+  <text x="720" y="585" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#22d3ee">推荐意愿</text>
+  
+  <rect x="1010" y="490" width="190" height="100" rx="12" fill="#1e293b" stroke="#FF6900" stroke-width="1"/>
+  <text x="1030" y="525" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">生态用户</text>
+  <text x="1030" y="560" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="32" fill="#f1f5f9" font-weight="bold">65%</text>
+  <text x="1030" y="585" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#FF6900">占比</text>
+  
+  <text x="1200" y="680" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8" text-anchor="end">02 / 12</text>
+</svg>

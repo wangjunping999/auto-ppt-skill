@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#0f172a"/>
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1280" height="720" fill="url(#g1)" opacity="0.3"/>
+  
+  <text x="80" y="70" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#6366f1" font-weight="600">02 技术演进</text>
+  <text x="80" y="110" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="38" fill="#f1f5f9" font-weight="bold">四大技术趋势深度解析</text>
+  <rect x="80" y="125" width="60" height="4" rx="2" fill="#6366f1"/>
+  
+  <!-- 趋势1: 模型效率优化 -->
+  <rect x="80" y="160" width="550" height="240" rx="16" fill="#1e293b" stroke="#22d3ee" stroke-width="2"/>
+  <rect x="100" y="180" width="60" height="60" rx="12" fill="#22d3ee" opacity="0.2"/>
+  <text x="130" y="220" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" fill="#22d3ee" text-anchor="middle" font-weight="bold">01</text>
+  <text x="180" y="210" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#f1f5f9" font-weight="bold">模型效率优化</text>
+  <text x="180" y="240" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">从参数竞赛到效率竞赛</text>
+  
+  <text x="100" y="290" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 参数规模增长放缓，7B-70B成为主流</text>
+  <text x="100" y="320" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 量化压缩技术成熟，INT4/INT8推理普及</text>
+  <text x="100" y="350" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• MoE架构提升效率，稀疏激活降低算力</text>
+  <text x="100" y="380" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#22d3ee">→ 同等效果下推理成本降低90%</text>
+  
+  <!-- 趋势2: 多模态原生 -->
+  <rect x="650" y="160" width="550" height="240" rx="16" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+  <rect x="670" y="180" width="60" height="60" rx="12" fill="#6366f1" opacity="0.2"/>
+  <text x="700" y="220" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" fill="#6366f1" text-anchor="middle" font-weight="bold">02</text>
+  <text x="750" y="210" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#f1f5f9" font-weight="bold">多模态原生</text>
+  <text x="750" y="240" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">统一架构处理全模态数据</text>
+  
+  <text x="670" y="290" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 文本、图像、音频、视频统一编码</text>
+  <text x="670" y="320" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 跨模态理解：看图说话、听音识图</text>
+  <text x="670" y="350" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 多模态生成：文生图、图生视频</text>
+  <text x="670" y="380" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#6366f1">→ 成为大模型标配能力</text>
+  
+  <!-- 趋势3: Agent生态 -->
+  <rect x="80" y="430" width="550" height="240" rx="16" fill="#1e293b" stroke="#a78bfa" stroke-width="2"/>
+  <rect x="100" y="450" width="60" height="60" rx="12" fill="#a78bfa" opacity="0.2"/>
+  <text x="130" y="490" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" fill="#a78bfa" text-anchor="middle" font-weight="bold">03</text>
+  <text x="180" y="480" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#f1f5f9" font-weight="bold">Agent生态</text>
+  <text x="180" y="510" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">工具调用与任务编排标准化</text>
+  
+  <text x="100" y="560" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• Function Calling成为标准接口</text>
+  <text x="100" y="590" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 多Agent协作框架涌现（AutoGPT等）</text>
+  <text x="100" y="620" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 记忆、规划、执行能力持续增强</text>
+  <text x="100" y="650" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#a78bfa">→ 从"会说"到"会做"的跨越</text>
+  
+  <!-- 趋势4: 垂直深化 -->
+  <rect x="650" y="430" width="550" height="240" rx="16" fill="#1e293b" stroke="#22d3ee" stroke-width="2"/>
+  <rect x="670" y="450" width="60" height="60" rx="12" fill="#22d3ee" opacity="0.2"/>
+  <text x="700" y="490" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" fill="#22d3ee" text-anchor="middle" font-weight="bold">04</text>
+  <text x="750" y="480" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#f1f5f9" font-weight="bold">垂直深化</text>
+  <text x="750" y="510" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8">行业专用模型快速涌现</text>
+  
+  <text x="670" y="560" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 法律、医疗、金融等垂直模型成熟</text>
+  <text x="670" y="590" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 领域知识深度融合，专业度提升</text>
+  <text x="670" y="620" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#f1f5f9">• 私有化部署满足合规需求</text>
+  <text x="670" y="650" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#22d3ee">→ 通用+垂直双轨并行</text>
+  
+  <text x="1200" y="680" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8" text-anchor="end">05 / 13</text>
+</svg>

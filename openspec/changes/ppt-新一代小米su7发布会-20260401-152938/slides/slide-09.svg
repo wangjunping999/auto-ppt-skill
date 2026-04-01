@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#0f172a"/>
+  <defs><linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#FF6900;stop-opacity:0.2"/><stop offset="100%" style="stop-color:#6366f1;stop-opacity:0.1"/></linearGradient></defs>
+  <rect x="0" y="0" width="1280" height="720" fill="url(#g1)" opacity="0.3"/>
+  <text x="80" y="70" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#FF6900" font-weight="600">竞品对比</text>
+  <text x="80" y="110" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="38" fill="#f1f5f9" font-weight="bold">实力碾压</text>
+  <rect x="80" y="125" width="60" height="4" rx="2" fill="#FF6900"/>
+  <rect x="80" y="160" width="1120" height="400" rx="16" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+  <text x="110" y="210" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#f1f5f9" font-weight="bold">车型</text>
+  <text x="350" y="210" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#FF6900" font-weight="bold">小米SU7 Max</text>
+  <text x="600" y="210" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#818cf8">特斯拉Model 3</text>
+  <text x="850" y="210" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#818cf8">极氪001</text>
+  <line x1="110" y1="230" x2="1170" y2="230" stroke="#6366f1" stroke-width="1"/>
+  <text x="110" y="270" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#818cf8">价格</text>
+  <text x="350" y="270" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#f1f5f9" font-weight="bold">29.99万</text>
+  <text x="600" y="270" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">23.19万</text>
+  <text x="850" y="270" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">26.90万</text>
+  <text x="110" y="320" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#818cf8">续航</text>
+  <text x="350" y="320" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#22d3ee" font-weight="bold">800km</text>
+  <text x="600" y="320" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">606km</text>
+  <text x="850" y="320" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">750km</text>
+  <text x="110" y="370" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#818cf8">0-100km/h</text>
+  <text x="350" y="370" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#22d3ee" font-weight="bold">2.78s</text>
+  <text x="600" y="370" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">3.3s</text>
+  <text x="850" y="370" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">3.8s</text>
+  <text x="110" y="420" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#818cf8">智驾</text>
+  <text x="350" y="420" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#22d3ee" font-weight="bold">城市NOA</text>
+  <text x="600" y="420" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">FSD(未落地)</text>
+  <text x="850" y="420" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">高速NOA</text>
+  <text x="110" y="470" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#818cf8">生态</text>
+  <text x="350" y="470" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#22d3ee" font-weight="bold">人车家全生态</text>
+  <text x="600" y="470" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">手机互联</text>
+  <text x="850" y="470" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9">车机系统</text>
+  <rect x="80" y="590" width="1120" height="80" rx="12" fill="#1e293b" stroke="#FF6900" stroke-width="1" opacity="0.6"/>
+  <text x="100" y="625" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#f1f5f9" font-weight="bold">核心优势</text>
+  <text x="100" y="655" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#818cf8">续航更长、加速更快、智驾更强、生态更全、价格更优 —— 同级性价比之王</text>
+  <text x="1200" y="680" font-family="Geist Sans, Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#818cf8" text-anchor="end">09 / 12</text>
+</svg>
