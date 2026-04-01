@@ -1,0 +1,16 @@
+# PPT Agent Python Dependencies
+
+# YAML parsing
+pyyaml>=6.0
+
+# Optional: For advanced SVG processing
+# svglib>=1.5.0
+# reportlab>=3.6.0
+
+# Optional: For image processing
+# Pillow>=9.0.0
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=5.0.0

@@ -1,6 +1,6 @@
 ---
-name: ppt-agent
-description: "PPT 幻灯片生成工作流。使用 LLM 生成内容，输出 SVG 格式（1280×720）的 Bento Grid 布局演示文稿。支持 17 种风格预设和品牌色彩自定义。使用场景：制作演示文稿、产品发布、学术报告、商业提案。"
+name: auto-ppt-skill
+description: "PPT 幻灯片生成工作流。使用 LLM 生成内容，输出 SVG 格式（1280×720）的 Bento Grid 布局演示文稿。支持 17 种风格预设和品牌色彩自定义。基于 ppt-agent 适配 OpenClaw。开源地址：https://github.com/wangjunping999/auto-ppt-skill"
 metadata:
   {
     "openclaw":
@@ -21,7 +21,12 @@ metadata:
   }
 ---
 
-# PPT Agent - 幻灯片生成
+# Auto PPT Skill - 幻灯片生成
+
+[![GitHub](https://img.shields.io/badge/GitHub-auto--ppt--skill-blue.svg)](https://github.com/wangjunping999/auto-ppt-skill)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+> 本项目参考并基于 [ppt-agent](https://github.com/zengwenliang416/ppt-agent) 实现
 
 多智能体 PPT 幻灯片生成工作流，支持跨平台运行。
 
@@ -148,16 +153,59 @@ openspec/changes/<run_id>/
 3. 最终输出为 SVG 格式，可用浏览器直接打开
 4. HTML 预览页支持 Gallery/Scroll/Present 三种模式
 
+## 🚀 OpenClaw 快速安装
+
+### 方式一：Git 克隆（推荐）
+
+```bash
+# 1. 进入 OpenClaw skills 目录
+cd ~/.openclaw/workspace/skills
+
+# 2. 克隆仓库
+git clone https://github.com/zengwenliang416/ppt-agent.git
+
+# 3. 进入项目目录
+cd ppt-agent
+
+# 4. 创建虚拟环境
+python3 -m venv .venv
+
+# 5. 激活虚拟环境并安装依赖
+source .venv/bin/activate
+pip install pyyaml
+
+# 6. 验证安装
+python3 scripts/workflow.py --help
+```
+
+### 方式二：手动下载
+
+1. 从 GitHub 下载最新 Release 压缩包
+2. 解压到 `~/.openclaw/workspace/skills/ppt-agent/`
+3. 按照上述步骤 4-6 完成安装
+
+### 方式三：使用 OpenClaw 内置命令
+
+在 OpenClaw 中直接执行：
+
+```
+# 安装 skill
+exec: cd ~/.openclaw/workspace/skills && git clone https://github.com/zengwenliang416/ppt-agent.git
+
+# 设置权限
+exec: chmod +x ~/.openclaw/workspace/skills/ppt-agent/scripts/*.py
+```
+
 ## 环境设置
 
 本 skill 使用独立的 Python 虚拟环境：
 
 ```bash
 # 虚拟环境位置
-/Users/wangjunping/.openclaw/workspace-tst01/skills/ppt-agent/.venv
+~/.openclaw/workspace/skills/ppt-agent/.venv
 
 # 激活虚拟环境
-source /Users/wangjunping/.openclaw/workspace-tst01/skills/ppt-agent/.venv/bin/activate
+source ~/.openclaw/workspace/skills/ppt-agent/.venv/bin/activate
 
 # 已安装的依赖
 pip list  # 查看已安装包
@@ -167,7 +215,7 @@ pip list  # 查看已安装包
 
 ```bash
 # 激活虚拟环境后
-source /Users/wangjunping/.openclaw/workspace-tst01/skills/ppt-agent/.venv/bin/activate
+source ~/.openclaw/workspace/skills/ppt-agent/.venv/bin/activate
 pip install <package-name>
 ```
 
